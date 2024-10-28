@@ -1,8 +1,15 @@
+"use client"
+import ContactForm from '@/components/ContactForm'
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
 import React from 'react'
 
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <>
+    <Header/>
+    <ContactForm/>
+    </>
   )
 }
 
